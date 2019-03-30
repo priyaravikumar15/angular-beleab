@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { routing } from './app.routing';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
@@ -11,3 +12,6 @@ import { HelloComponent } from './hello.component';
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
+/*Added Component*/
+
+
